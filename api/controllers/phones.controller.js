@@ -1,4 +1,4 @@
-const createError = require("http-errors");
+const data = require("../data/phones.json");
 
 module.exports.list = (req, res, next) => {
   res.json(data)
